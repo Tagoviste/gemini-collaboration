@@ -3,7 +3,7 @@ import vertexai
 from vertexai.generative_models import GenerationConfig, GenerativeModel
 
 # Update project_id
-project_id = "inbound-descent-426711-g1"
+project_id = "<project_id>"
 
 vertexai.init(project=project_id, location="us-central1")
 print("Vertex AI SDK initialized.")
